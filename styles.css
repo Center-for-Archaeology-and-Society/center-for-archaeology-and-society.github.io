@@ -123,6 +123,10 @@ a {
   margin-bottom: 1.5rem;
 }
 
+.secondary-feature-wrap {
+  margin-bottom: 1.5rem;
+}
+
 .card,
 .repo-card {
   background: var(--surface);
@@ -161,6 +165,14 @@ a {
   font-weight: 600;
 }
 
+.primary-feature {
+  border-color: var(--dark);
+}
+
+.secondary-feature {
+  border-style: dashed;
+}
+
 .repo-section {
   margin-top: 0.5rem;
 }
@@ -191,6 +203,10 @@ a {
 
 .site-footer {
   margin-top: 2rem;
+}
+
+.disclaimer {
+  font-size: 0.95rem;
 }
 
 @media (max-width: 760px) {
