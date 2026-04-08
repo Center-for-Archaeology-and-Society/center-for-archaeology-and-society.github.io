@@ -17,62 +17,69 @@
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <div class="page-shell">
-      <header class="hero">
-        <p class="eyebrow">Arizona State University</p>
-        <h1>Center for Archaeology and Society</h1>
-        <p class="hero-copy">
-          The Center for Archaeology and Society (CAS) at Arizona State University
-          is a hub for collections care, education, public outreach, and research
-          within the School of Human Evolution and Social Change.
-        </p>
-        <p class="hero-copy">
-          This site highlights the public software and infrastructure repositories
-          maintained by the Center for Archaeology and Society GitHub organization.
-        </p>
-        <div class="hero-actions">
-          <a
-            class="button primary"
-            href="https://shesc.asu.edu/centers/archaeology-and-society"
-          >
-            Visit the CAS website
-          </a>
-          <a
-            class="button secondary"
-            href="https://github.com/Center-for-Archaeology-and-Society"
-          >
-            View the GitHub organization
-          </a>
+    <div class="site-shell">
+      <header class="site-header">
+        <div class="container">
+          <div class="brand-block">
+            <p class="brand-kicker">Arizona State University</p>
+            <h1>Center for Archaeology and Society</h1>
+          </div>
+          <nav class="site-nav" aria-label="Primary">
+            <a href="https://shesc.asu.edu/centers/archaeology-and-society">CAS Website</a>
+            <a href="https://github.com/Center-for-Archaeology-and-Society">GitHub Organization</a>
+            <a href="https://center-for-archaeology-and-society.github.io/heuristR/">heuristR Docs</a>
+          </nav>
         </div>
       </header>
 
-      <main>
-        <section class="feature-card">
-          <div>
-            <p class="section-label">Featured Project</p>
-            <h2>heuristR</h2>
-            <p>
-              <strong>heuristR</strong> is an R client for Heurist databases with session-based
-              authentication, metadata helpers, safe write workflows, and rollback
-              support for reversible scripted changes.
-            </p>
-          </div>
-          <div class="feature-links">
-            <a href="https://github.com/Center-for-Archaeology-and-Society/heuristR">
-              GitHub repository
-            </a>
-            <a href="https://center-for-archaeology-and-society.github.io/heuristR/">
-              Documentation site
-            </a>
-          </div>
+      <main class="container main-content">
+        <section class="intro-grid">
+          <article class="card spotlight">
+            <div class="card-body">
+              <h2 class="card-title">About CAS</h2>
+              <p class="card-text">
+                The Center for Archaeology and Society (CAS) at Arizona State
+                University supports collections care, education, public outreach,
+                and research within the School of Human Evolution and Social Change.
+              </p>
+              <p class="card-text">
+                This homepage provides a public directory of software, services,
+                and infrastructure repositories maintained by the CAS GitHub
+                organization.
+              </p>
+              <p class="card-links">
+                <a class="button primary" href="https://shesc.asu.edu/centers/archaeology-and-society">
+                  Visit the CAS website
+                </a>
+                <a class="button secondary" href="https://github.com/Center-for-Archaeology-and-Society">
+                  View the GitHub organization
+                </a>
+              </p>
+            </div>
+          </article>
+
+          <article class="card featured-project">
+            <div class="card-body">
+              <p class="section-label">Featured Project</p>
+              <h2 class="card-title">heuristR</h2>
+              <p class="card-text">
+                <strong>heuristR</strong> is an R client for Heurist databases
+                with session-based authentication, metadata helpers, safe write
+                workflows, and rollback support for reversible scripted changes.
+              </p>
+              <p class="card-links">
+                <a href="https://github.com/Center-for-Archaeology-and-Society/heuristR">Repository</a>
+                <a href="https://center-for-archaeology-and-society.github.io/heuristR/">Documentation site</a>
+              </p>
+            </div>
+          </article>
         </section>
 
         <section class="repo-section">
           <div class="section-heading">
-            <p class="section-label">Public Repositories</p>
-            <h2>Tools, services, and applications maintained by CAS</h2>
+            <h2>Public Repositories</h2>
             <p>
-              The repositories below are public projects from the
+              Tools, services, and applications maintained by the
               Center-for-Archaeology-and-Society organization.
             </p>
           </div>
@@ -168,6 +175,18 @@
             </article>
           </div>
         </section>
+
+        <footer class="site-footer">
+          <div class="card">
+            <div class="card-body">
+              <h2 class="footer-title">Contact</h2>
+              <p class="card-text">
+                Questions about CAS repositories or digital workflows can be directed to
+                <a href="mailto:rbischoff@asu.edu">rbischoff@asu.edu</a>.
+              </p>
+            </div>
+          </div>
+        </footer>
       </main>
     </div>
   </body>
